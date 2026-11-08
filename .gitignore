@@ -1,0 +1,13 @@
+# Data lokal / sensitif
+database/backup_sebelum_perbaikan.sql
+reset_link.txt
+config/.schema_version
+
+# File upload pengguna
+uploads/items/*
+uploads/profiles/*
+!uploads/items/.gitkeep
+!uploads/profiles/.gitkeep
+
+# Editor
+.vscode/
